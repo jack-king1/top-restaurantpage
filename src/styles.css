@@ -40,6 +40,9 @@ header{
 #content{
   background-color: #25161b;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #logo{
@@ -62,4 +65,44 @@ nav button{
   padding: 20px;
   font-size: 26px;  
 }
-  
+
+#home, #menu, #about, #contact{
+  border-radius: 20px;
+  background-color: #f3cba5;
+  width: 33%;
+  height: 80%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#home h3{
+  font-size: 60px;
+  color: #453953;
+}
+
+#home p{
+  font-size: 20px;
+  color: #453953;
+}
+
+#home button{
+  border: none;
+  background-color: #975a5e;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 50px;
+  scale: 100%;
+  transition:ease-in .1s;
+}
+
+#home button:hover{
+  cursor: pointer;
+  scale: 105%;
+  transition:ease-in .1s;
+}
