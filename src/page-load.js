@@ -29,14 +29,16 @@ return aboutContent;
 
 function loadMenu(){
     let menuContent = `<div id="menu">
-    <div>
-        <h3>Menu</h3>
-    </div>
-    <div>
-        <p>
-        </p>
-    </div>
-</div>`;
+            <div>
+                <h3>Menu</h3>
+            </div>
+            <div class="menu-item">White:</div>
+            <div class="menu-item"><b>£4.95</b></div>
+            <div class="menu-item">Latte:</div>
+            <div class="menu-item"><b>£4.95</b></div>
+            <div class="menu-item">Mocha:</div>
+            <div class="menu-item"><b>£4.95</b></div>
+        </div>`;
 return menuContent;
 }
 

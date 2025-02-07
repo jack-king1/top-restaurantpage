@@ -106,3 +106,19 @@ nav button{
   scale: 105%;
   transition:ease-in .1s;
 }
+
+#menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  color: #453953;
+}
+
+.menu-item{
+  font-size: 40px;
+}
+
+#menu div:first-child{
+  grid-column: 1 / 3;
+  font-size: 60px;
+}
