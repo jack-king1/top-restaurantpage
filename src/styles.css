@@ -122,3 +122,21 @@ nav button{
   grid-column: 1 / 3;
   font-size: 60px;
 }
+
+#about h3{
+  color: #453953;
+  font-size: 60px;
+}
+
+#about p{
+  font-size: 30px;
+}
+
+#contact h3{
+  color: #453953;
+  font-size: 60px;
+}
+
+#contact p{
+  font-size: 30px;
+}

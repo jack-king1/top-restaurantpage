@@ -35,4 +35,4 @@ function addEventListenerToNavBtns(){
 initPages();
 getCotnentDiv();
 addEventListenerToNavBtns();
-//changePage(0);
+changePage(0);
